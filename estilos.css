@@ -1,0 +1,108 @@
+@import "reset.css";
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+	font-family:'Kodchasan', sans-serif;
+}
+nav{
+	background-color:#172844;
+	position:fixed;
+	width:100%;
+	color:#f4eff2;
+}
+nav ul{
+	display: flex;
+	justify-content:center;
+}
+nav ul li{
+	margin:2%;
+}
+section{
+	height:100vh;
+	width:100vw;
+	color:white;
+	padding:0 20px 0 20px;
+}
+#home{
+	background-color:	white;
+}
+#sobre{
+	background-image: url("bg.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end ;
+	align-items: center;
+
+	
+}
+#acoes{
+	background-color:#f47742;
+}
+#acoes h1{
+	font-size:2em;
+	margin-bottom:70px;
+}
+#contato{
+background-color:#ffe14c;
+display:flex;
+align-items:center;
+justify-content:center;
+color:black;
+}
+footer{
+height:100vh;
+width:100vw;
+color:white;
+}
+.centralizado {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#sobre p{
+	background-color: white;
+float: right;
+	color:black;
+	width: 20vw;
+	font-size:2.5vh;
+	padding:20px;
+	border-radius:20px;
+	margin-right:30px
+	
+}
+.imagens {
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr ; 
+grid-gap:10px;
+margin-top:70px
+}
+#logo{
+	border-radius:800px;
+}
+.icones{
+	display:flex;
+	flex-direction:row;
+	margin-left:40px
+}
+.icones img{
+	width:70px;
+	margin-right:15px
+}
+.icones img:hover{
+	transform: scale(1.1)
+}
+#contato-cabecalho{
+	font-size:200%
+}
+nav a{
+	color: white;
+	font-size: 130%;
+	margin: 0 60px 0 0;
+	padding: 30px
+}
